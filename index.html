@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Marginean Maria">
+  <link rel="stylesheet" href="./main.css">
+  <meta>
+</head>
+
+<body>
+  <form action="/dummy" method="get">
+    <input type="text" name="name" placeholder="Enter your name"><br><br>
+    <input type="email" name="email" placeholder=" Enter the email"><br><br>
+    <fieldset style="width:25%">
+      <legend>Choose your specialization</legend>
+      <label for="calculatoare">Calculatoare</label>
+      <input type="radio" name="specialization" id="calculatoare"><br><br>
+      <label for="automatica">Automatica</label>
+      <input type="radio" name="specialization" id="automatica"><br><br>
+      <label for="electronica">Electronica aplicata</label>
+      <input type="radio" name="specialization" id="electronica">
+    </fieldset><br><br>
+    <label for="year">Year: </label>
+    <input type="number" id="year" name="year" min="1" max="4"><br><br>
+    <fieldset style="width:25%">
+      <legend>Choose your preferred programming language </legend>
+      <label for="C++"> C++</label>
+      <input type="checkbox" id="C++" name="language"><br><br>
+      <label for="C#"> C#</label>
+      <input type="checkbox" id="C#" name="language"><br><br>
+      <label for="Java"> Java</label>
+      <input type="checkbox" id="Java" name="language"><br><br>
+      <label for="JavaScript"> JavaScript</label>
+      <input type="checkbox" id="JavaScript" name="language">
+    </fieldset><br><br>
+    <label for="cars"> What do you like to do?</label>:</label>
+    <select>
+      <optgroup label="Sports">
+        <option value="baseball">Baseball</option>
+        <option value="basketball">Basketball</option>
+        <option value="football">Football</option>
+        <option value="tennis">Tennis</option>
+      </optgroup>
+      <optgroup label="Shopping">
+        <option value="food">Food</option>
+        <option value="gift">Gift</option>
+        <option value="makeup">Make up</option>
+        <option value="clothes">Clothes</option>
+      </optgroup>
+    </select>
+    <br><br>
+    <label for="date">Current date</label>
+    <input type="datetime-local" id="date" name="date"><br><br>
+    <label for="date">Your opinion: </label><br>
+    <textarea id="review" name="review" rows="4" cols="50"></textarea><br><br>
+    <input type="password" name="password" placeholder=" Enter the password" /><br><br>
+    <input type="submit" name="Submit">
+  </form>
+</body>
+
+</html>
